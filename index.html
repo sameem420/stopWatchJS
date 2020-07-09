@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StopWatch</title>
-    <script src="app.js"></script>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
@@ -17,9 +16,11 @@
         <h1 id="msec">0</h1>
     </div>
     <div id="timerControls">
-        <button>Start</button>
-        <button>Stop</button>
-        <button>Reset</button>
+        <button id="startBtn" onclick="Start()">Start</button>
+        <button onclick="Pause()">Stop</button>
+        <button onclick="Reset()">Reset</button>
     </div>
+
+    <script src="./app.js"></script>
 </body>
 </html>
