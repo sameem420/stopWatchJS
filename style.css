@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&display=swap');
+
+* {
+    font-family: 'Monda', sans-serif;
+}
 body {
     text-align: center;
 }
@@ -17,4 +22,5 @@ body {
 #timerControls > button {
     width: 100px;
     height: 50px;
+    font-size: larger;
 }
