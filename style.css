@@ -21,8 +21,9 @@ body {
 
 #lastRecord > h1{
     display:  inline-block;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    border: 1px solid;
     width: 100px;
 }
 

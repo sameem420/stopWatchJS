@@ -36,9 +36,8 @@ function Pause() {
 }
 
 function Reset() {
-    document.getElementById("lmin").innerHTML = 
-    document.getElementById("lsec").innerHTML
-    document.getElementById("lmsec").innerHTML
+    ();
+
     min = 0;
     sec = 0;
     msec = 0;
@@ -46,4 +45,29 @@ function Reset() {
     secHeading.innerHTML = sec;
     msecHeading.innerHTML = msec;
     Pause();
+}
+
+function showRecord() {
+    var minRecord = document.createElement("h1");
+    var secRecord = document.createElement("h1");
+    var msecRecord = document.createElement("h1");
+    linebreak = document.createElement("br");
+
+    var lm = document.createTextNode(min);
+    var ls = document.createTextNode(sec);
+    var lms = document.createTextNode(msec);
+
+    minRecord.appendChild(lm);
+    secRecord.appendChild(ls);
+    msecRecord.appendChild(lms);
+
+    if (msec === '') {
+      alert("Can't add empty values!");
+    } 
+    else {
+      document.getElementById("lastRecord").appendChild(minRecord);
+      document.getElementById("lastRecord").appendChild(secRecord);
+      document.getElementById("lastRecord").appendChild(msecRecord);
+      document.getElementById("lastRecord").appendChild(linebreak);
+    }
 }
