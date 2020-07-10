@@ -36,6 +36,9 @@ function Pause() {
 }
 
 function Reset() {
+    document.getElementById("lmin").innerHTML = 
+    document.getElementById("lsec").innerHTML
+    document.getElementById("lmsec").innerHTML
     min = 0;
     sec = 0;
     msec = 0;
