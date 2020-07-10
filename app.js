@@ -51,7 +51,7 @@ function showRecord() {
     var minRecord = document.createElement("h1");
     var secRecord = document.createElement("h1");
     var msecRecord = document.createElement("h1");
-    linebreak = document.createElement("br");
+    var linebreak = document.createElement("br");
 
     var lm = document.createTextNode(min);
     var ls = document.createTextNode(sec);
