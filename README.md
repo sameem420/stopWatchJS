@@ -1,5 +1,5 @@
 # stopWatchJS
-Stop watch timer created in JavaScript (JS)
+Advance Stop watch timer with History functionality created in JavaScript (JS)
 
 DEMO # 1:-
 https://stopwatch-js.web.app/
