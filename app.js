@@ -36,7 +36,7 @@ function Pause() {
 }
 
 function Reset() {
-    showRecord();
+    showHistory();
 
     min = 0;
     sec = 0;
@@ -47,7 +47,7 @@ function Reset() {
     Pause();
 }
 
-function showRecord() {
+function showHistory() {
     var minRecord = document.createElement("h1");
     var secRecord = document.createElement("h1");
     var msecRecord = document.createElement("h1");
