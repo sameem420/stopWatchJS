@@ -37,6 +37,9 @@ body {
 
 #resetBtn {
     background-color: white;
+    
+    border-radius: 5px;
+    border-color: gray;
 }
 
 #main {
