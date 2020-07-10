@@ -36,7 +36,7 @@ function Pause() {
 }
 
 function Reset() {
-    ();
+    showRecord();
 
     min = 0;
     sec = 0;
