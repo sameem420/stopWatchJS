@@ -10,17 +10,18 @@
     <div id="mainheading">
         <h1>StopWatch</h1>
     </div>
-    <div id="timer">
-        <h1 id="min">0</h1>
-        <h1 id="sec">0</h1>
-        <h1 id="msec">0</h1>
+    <div id="main">
+        <div id="timer">
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+        <div id="timerControls">
+            <button id="startBtn" onclick="Start()">Start</button>
+            <button id="pauseBtn" onclick="Pause()">Pause</button>
+            <button id="resetBtn" onclick="Reset()">Reset</button>
+        </div>
     </div>
-    <div id="timerControls">
-        <button id="startBtn" onclick="Start()">Start</button>
-        <button id="pauseBtn" onclick="Pause()">Stop</button>
-        <button id="resetBtn" onclick="Reset()">Reset</button>
-    </div>
-
     <script src="./app.js"></script>
 </body>
 </html>
