@@ -33,6 +33,10 @@ body {
     background-color: red;
 }
 
+#resetBtn {
+    background-color: rgb(168, 202, 168);
+}
+
 #main {
     border-left: 1px solid;
     border-right: 1px solid;
