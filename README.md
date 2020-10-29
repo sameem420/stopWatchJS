@@ -1,9 +1,6 @@
-# stopWatchJS
-Advance Stop watch timer with History functionality created in JavaScript (JS)
+# JavaScriptApp-stopWatch
+### Advance Stop watch timer with History functionality created in JavaScript (JS)
 
-DEMO # 1:-
-https://stopwatch-js.web.app/
-
-DEMO # 2:-
-https://sameem420.github.io/stopWatchJS/
+| [GitHub DEMO](https://sameem420.github.io/stopWatchJS/) |[Firebase DEMO](https://stopwatch-js.web.app/) |
+| ----- | ----- |
 
